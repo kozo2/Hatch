@@ -7,27 +7,7 @@ docs_dir: docs
 site_logo: resources/images/Logo/hatch_wide_light_bg_transparent.png
 
 theme:
-  name: material
-  logo: resources/images/Logo/hatch_wide_light_bg_transparent.png
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - content.code.copy
-    - search.suggest
-    - search.highlight
-  palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
+  name: readthedocs
 
 plugins:
   - search
